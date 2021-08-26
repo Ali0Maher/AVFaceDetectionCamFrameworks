@@ -1,0 +1,11 @@
+framework module AVFaceDetectionCam {
+  umbrella header "AVFaceDetectionCam.h"
+
+  export *
+  module * { export * }
+}
+
+module AVFaceDetectionCam.Swift {
+    header "AVFaceDetectionCam-Swift.h"
+    requires objc
+}
